@@ -1,0 +1,31 @@
+{
+  "name": "catchtable-macro-server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch index.ts",
+    "start": "node dist/index.js",
+    "build": "tsc -p tsconfig.build.json"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "pino": "^9.5.0",
+    "pino-pretty": "^11.3.0",
+    "detect-port": "^1.5.1",
+    "puppeteer": "^23.7.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/cors": "^2.8.17",
+    "@types/detect-port": "^1.3.4",
+    "@types/node": "^24.6.0",
+    "tslib": "^2.8.1",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.2",
+    "typescript": "~5.9.3"
+  }
+}
+
